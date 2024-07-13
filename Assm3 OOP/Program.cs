@@ -1,6 +1,7 @@
 ﻿
 
 
+using Assm3_OOP.Binding;
 using Assm3_OOP.Poly;
 
 namespace Assm3_OOP
@@ -28,15 +29,24 @@ namespace Assm3_OOP
         return x + y;
         }
 
+
+
+        public static void ProcessEmployee(Employee employee)
+        {
+            employee.GetEmp();
+            employee.GetEmpData();
+        }  
+        //public static void ProcessEmployee(PartTimeEmployee employee)
+        //{
+        //    employee.GetEmpType();
+        //    employee.GetEmpData();
+        //}
+
         #endregion
         static void Main(string[] args)
         {
 
-
-
-
-
-
+  
             #region Polymor phism (OverLoading)
 
             //int Result = Sum(1, 2);
@@ -106,15 +116,30 @@ namespace Assm3_OOP
             //Console.WriteLine(taypA.A);
             //Console.WriteLine(taypB.B);
 
-            object o = "2";
-            int x = (int)0;
+            //object o = "2";
+            //int x = (int)0;
 
-            Console.WriteLine(x);
+            //Console.WriteLine(x);
 
             #endregion
 
 
-            #region
+            #region Binding Ex01
+
+            FullTimeEmployee fullTimeEmployee = new FullTimeEmployee(1 , "Ahmed" , 25 , 2021);
+            ProcessEmployee(fullTimeEmployee);
+
+            PartTimeEmployee partTimeEmployee = new PartTimeEmployee()
+            {
+                Id = 20,
+                Name = "AhmedTwo",
+                Age = 20,
+                Houers = 2.3M,
+                CountOfHours = 20,
+                
+            };
+
+            ProcessEmployee(partTimeEmployee);
 
             #endregion
 
