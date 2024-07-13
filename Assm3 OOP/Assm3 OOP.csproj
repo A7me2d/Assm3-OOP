@@ -6,6 +6,7 @@
     <RootNamespace>Assm3_OOP</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <ApplicationManifest>Poly\TypeC.manifest</ApplicationManifest>
   </PropertyGroup>
 
 </Project>

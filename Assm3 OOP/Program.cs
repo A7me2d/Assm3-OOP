@@ -144,8 +144,32 @@ namespace Assm3_OOP
             #endregion
 
 
-            #region
+            #region Binding Ex02
 
+            //TaypA taypA = new TypeC(1, 2, 3);
+
+            //taypA.A = 10;
+
+            //taypA.MyFun01();
+            //taypA.MyFun02();
+
+            //TaypB taypB = new TypeC(1, 2, 3);
+            //taypB.A = 10;
+            //taypB.B = 20;
+
+            //taypB.MyFun01();
+            //taypB.MyFun02();
+
+
+            //TaypA taypA = new TypeE ( 1,2,3,4,5 );
+            //TaypB taypB = new TypeE ( 1,2,3,4,5 );
+            //TypeC typeC = new TypeE ( 1,2,3,4,5 );
+
+            //taypA.MyFun02();
+            //taypB.MyFun02();
+            //typeC.MyFun02();
+
+            
             #endregion
 
 
