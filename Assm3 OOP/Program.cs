@@ -68,7 +68,7 @@ namespace Assm3_OOP
 
 
 
-            #endregion 
+            #endregion
 
 
             #region Binding
@@ -82,13 +82,34 @@ namespace Assm3_OOP
             //refBase.MyFun01();
             //refBase.MyFun02();
 
-            
+
 
 
             #endregion
 
 
-            #region
+            #region not Binding
+
+            //TaypB typeB = (TaypB) new TaypA(1);
+
+            //Console.WriteLine(typeB.A);
+            //Console.WriteLine(typeB.B);
+
+            //object o = 2;
+            //int x = (int)o;
+
+
+            //TaypA taypA = new TaypB(1, 2);
+            //TaypB taypB =(TaypB) taypA;
+
+
+            //Console.WriteLine(taypA.A);
+            //Console.WriteLine(taypB.B);
+
+            object o = "2";
+            int x = (int)0;
+
+            Console.WriteLine(x);
 
             #endregion
 
