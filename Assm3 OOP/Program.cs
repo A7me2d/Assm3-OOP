@@ -1,4 +1,10 @@
-﻿namespace Assm3_OOP
+﻿
+
+
+using Assm3_OOP.Poly;
+
+namespace Assm3_OOP
+
 {
     internal class Program
     {
@@ -45,7 +51,22 @@
             #endregion
 
 
-            #region
+            #region Polymorphism [Overriding]
+
+            //TaypA typeA = new TaypA(1);
+
+            //typeA.A = 10;
+
+            //typeA.MyFun01();
+            //typeA.MyFun02();
+
+            //TaypB taypB = new TaypB(1, 2);
+            //taypB.A = 10;
+            //taypB.B = 20;
+            //taypB.MyFun01();
+            //taypB.MyFun02();
+
+
 
             #endregion 
 
