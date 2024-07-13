@@ -71,7 +71,19 @@ namespace Assm3_OOP
             #endregion 
 
 
-            #region
+            #region Binding
+
+            //TaypA refBase;
+
+            //refBase = new TaypB(1, 2);
+
+            //refBase.A = 10;
+
+            //refBase.MyFun01();
+            //refBase.MyFun02();
+
+            
+
 
             #endregion
 

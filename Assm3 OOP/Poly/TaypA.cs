@@ -19,7 +19,7 @@ namespace Assm3_OOP.Poly
         {
             Console.WriteLine("i am Base [Partent]");
         }
-        public virtual  void MyFun02()
+        public virtual void MyFun02()
         {
             Console.WriteLine($"TaypeA : A = {A}");
         }

@@ -16,10 +16,15 @@ namespace Assm3_OOP.Poly
             B = b;
         }
 
+
+
+
         public new void MyFun01()
         {
             Console.WriteLine("i am Base [Child]");
         }
+
+
 
         public override void MyFun02() {
             Console.WriteLine($"taypeB : A = {A} , B = {B}");
